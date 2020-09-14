@@ -1,8 +1,8 @@
 /*
-_ESP8266Template
- v1.4
- Terry Myers <TerryJMyers@gmail.com>
- https://github.com/terryjmyers/_ESP8266Template.git
+ESP87266_Solenoid
+ v0.1
+ Douw Steyn (douw0119@gmail.com
+ https://github.com/douw/ESP8266_Solenoid
 
  Features:
 	Serial command interface
