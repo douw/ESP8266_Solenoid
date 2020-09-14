@@ -1,7 +1,10 @@
-# _ESP8266Template
-A Full and rich template to start from for any ESP8266 Project.  Template is setup to read a DHT22
+# ESP8266_Solenoid
+A solenoid controller based on [terryjmyers](https://github.com/terryjmyers)/**[_ESP8266Template](https://github.com/terryjmyers/_ESP8266Template)**
+
+<!--
 
 Features:
+
 1. Serial command interface
 2. Telnet command interface, (login required)
 3. Serial and telnet commands share common interface
@@ -28,4 +31,4 @@ How to install:
     2. FUNCTIONAL_DESCRIPTION & CONTACT INFORMATION which shows on the root webpage
     3. BACKDOOR_PASSWORD which can be used to bypass HTTP and telnet login
     4. EMAILBASE64_LOGIN, EMAILBASE64_PASSWORD, FROM, and EmailAddress in the email section
-    5. sha1salt which is appended to the plain text web/telnet login/password before hashed and stored in EEPROM.  Change to be 17 bytes of random data
+    5. sha1salt which is appended to the plain text web/telnet login/password before hashed and stored in EEPROM.  Change to be 17 bytes of random data-->
