@@ -1,7 +1,7 @@
 # ESP8266_Solenoid
 A solenoid controller based on [terryjmyers](https://github.com/terryjmyers)/**[_ESP8266Template](https://github.com/terryjmyers/_ESP8266Template)**
 
-This is very much a work n progress and not operational yet. 
+This is very much a work in progress and not operational yet. 
 
 <!--
 
