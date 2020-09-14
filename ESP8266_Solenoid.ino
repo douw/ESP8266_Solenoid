@@ -58,7 +58,7 @@ Untested:
 
 //Modify section of the code to suit a project:
 //#define DEBUG //developer debug
-#define THINGSPEAK
+//#define THINGSPEAK
 
 //Includes
 	#ifdef THINGSPEAK
@@ -339,7 +339,7 @@ Untested:
 
 		EEPROMStart(); //start EEPROM
 
-		dht.begin(); //Iitiate the DHT22 sensor
+		//dht.begin(); //Don't initialize the DHT22 sensor, not used in this sketch - to clean code later
 		
 		//Initialize Wifi Stuff
 			WiFi.hostname(ProjectName); //update the hostname
@@ -383,6 +383,7 @@ void loop() {
 	HTTPserver.handleClient();	//handle all HTTP requests
 	ProcessErrorMessage();
 
+/* DHT stuff commentd out for now - to clean up code later
 	 //Update pulse timers
 		_1000ms.tick();
 		_500ms.tick();
@@ -403,6 +404,8 @@ void loop() {
 		if (_1000ms.pulse()) { LT.printStatistics(); }
 		LT.tick();
 	#endif
+	*/
+	
 	//Yield to the ESP8266's background processes
 		yield(); //Not sure if this is really necessesary, seems to work fine without it, but it feels really good!
 }
